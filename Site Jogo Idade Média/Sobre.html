@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="pt_BR">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title> Idade Média </title>
+    <!-- Icones -->
+    <link rel="stylesheet" href="assets/fonts/style.css" />
+    <!-- Swiper -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <!-- Style -->
+    <link rel="stylesheet" href="style.css" />
+    <!-- Fonte -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+    href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Poppins:wght@400;500;700&display=swap"
+    rel="stylesheet" />
+</head>
+
+<body>
+    <header id="header">
+        <nav class="container">
+          <a class="logo" href="#">Middle<span>Earth</span>.</a>
+          <div class="menu">
+            <ul class="grid">
+                <li> <a class="title" href="index.html">Início</a> </li>
+                <li> <a class="title" href="pagAutor.html">Autora</a> </li>
+                <li> <a class="title" href="Sobre.html">Sobre o jogo e Personagens</a> </li>
+                <li> <a class="title" href="Personagens.html">Criar Personagens</a> </li>
+              </ul>
+          </div>
+          <div class="toggle icon-menu"></div>
+          <div class="toggle icon-close"></div>
+        </nav>
+      </header>
+      <main>
+   <!-- Serviços -->
+   <section class="section" id="services">
+    <div class="container grid">
+      <header>
+        <h2 class="title"> Sobre o jogo e Personagens</h2>
+      </header>
+      <div class="cards grid">
+        <div class="card">
+          <h3 class="title">Batalha</h3>
+          <p>
+            A batalha é realizada em um cenário fixo no qual podem ser alocados até oito
+            jogadores, sendo que só pode haver um personagem de cada nação. O cenário é fixo porque
+            a batalha inteira ocorre neste único cenário escolhido. Dentre os cenários possíveis, o jogo
+            pode definir qualquer uma das oito casas das nações.
+            Não existem alianças e “amizades” entre os personagens, portanto eles se
+            enfrentam em duelos de um contra o outro em cada rodada e o vencedor avança para a
+            próxima rodada. No início da rodada, os personagens são distribuídos aleatoriamente em
+            pares para realizarem a batalha e, caso a quantidade de personagens na batalha seja
+            ímpar, um deles ficará fora da batalha e se classificará automaticamente para a rodada
+            seguinte. Os vencedores de uma rodada são novamente distribuídos aleatoriamente para
+            se enfrentarem em uma nova batalha. As rodadas são repetidas de acordo com a
+            quantidade restante de personagens na arena, até que ocorra a batalha final e seja
+            definido um personagem como o vencedor. O jogador que “sobrou” na rodada anterior não
+            pode sobrar novamente na rodada seguinte.
+          </p>
+        </div>
+        <div class="card">
+            <h3 class="title"> Duelo </h3>
+            <p>
+              A batalha é realizada em turnos de duelos diretos entre dois personagens, conforme
+              foi descrito anteriormente. Porém, é preciso descrever com mais detalhes como se deve
+              determinar o vencedor de cada duelo.
+              Antes, deve-se observar que um duelo possui como informações de entrada: o
+              cenário da batalha e os dois personagens do confronto com as suas características. Após o
+              confronto, a informação de saída é o vencedor do confronto com os danos que sofreu e
+              infringiu.
+            </p>
+          </div>
+          <div class="card">
+            <h3 class="title"> Características dos Personagens </h3>
+            <p>
+              • Força: a capacidade que o personagem possui de infringir danos no adversário no
+              combate a curta distância;
+              <br><br>
+              • Precisão: a precisão denota a capacidade na qual o personagem tem para infringir
+              danos no adversário à longa distância;
+              <br><br>
+              • Velocidade: o tempo no qual o personagem leva para se aproximar do adversário;
+              <br><br>
+              • Armadura: o quanto reduz o impacto dos ataques do adversário, independente da
+              distância na qual os ataques são realizados;
+              <br><br>
+              • Recuperação: a capacidade de recuperar pontos para a próxima batalha.
+            </p>
+          </div>
+          <div class="card">
+            <h3 class="title"> Habilidades</h3>
+            <p>
+              As habilidades que os personagens possuem são força, velocidade, precisão,
+              armadura e recuperação. Além da nacionalidade e das 5 habilidades, o personagem possui
+              seus pontos de energia e um nome para identificá-lo ao longo de suas interações no jogo.
+              No início do jogo, o personagem possui 100 pontos de energia e outros 100 pontos de
+              habilidades que devem ser distribuídos entre as habilidades da forma que o jogador
+              preferir.
+            </p>
+          </div>
+          <div class="card">
+            <h3 class="title"> Nações</h3>
+            <p>
+              Neste jogo, foram selecionadas as seguintes nações da Terra-Média: Orc Snaga,
+              Uruk-hai, Cavaleiro de Rohan, Guerreiro de Gondor, Hobbit, Elfo da Floresta, Elfo de
+              Lothlórien e anão.
+              <br><br>
+              A casa de cada nação é, respectivamente, Cirith Ungol, Portão Negro,
+              Abismo de Helm, Minas Tirith, O Condado, Floresta das Trevas ou Mirkwood, Caras
+              Galadhon ou Cidade das Árvores e Colinas de Ferro.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div class="divider-1"></div>
+</main>
+    <footer class="section">
+        <div class="container grid">
+          <div class="brand">
+            <a class="logo logo-alt" href="#home">Middle<span>Earth</span>.</a>
+            <p>©2022 MiddleEarth.</p>
+            <p>Todos os direitos reservados.</p>
+          </div>
+        </div>
+      </footer>
+    
+      <a href="#home" class="back-to-top"><i class="icon-arrow-up"></i></a>
+    
+    
+      <!-- swiper -->
+      <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+      <!-- scrollreveal -->
+      <script src="https://unpkg.com/scrollreveal"></script>
+      <!-- main.js -->
+      <script src="main.js"></script>
+</body>
+</html>

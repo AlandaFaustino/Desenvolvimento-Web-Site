@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="pt_BR">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title> Idade Média </title>
+  <!-- Icones -->
+  <link rel="stylesheet" href="assets/fonts/style.css" />
+  <!-- Swiper -->
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+  <!-- Style -->
+  <link rel="stylesheet" href="style.css" />
+  
+  <!-- Fonte -->
+  <link rel="preconnect" href="https://fonts.gstatic.com" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Poppins:wght@400;500;700&display=swap"
+    rel="stylesheet" />
+    <script src="js/personagem.js"></script>
+</head>
+
+<body>
+    <header id="header">
+        <nav class="container">
+          <a class="logo" href="#">Middle<span>Earth</span>.</a>
+          <div class="menu">
+            <ul class="grid">
+                <li> <a class="title" href="index.html">Início</a> </li>
+                <li> <a class="title" href="pagAutor.html">Autora</a> </li>
+                <li> <a class="title" href="Sobre.html">Sobre o jogo e Personagens</a> </li>
+                <li> <a class="title" href="Personagens.html">Criar Personagens</a> </li>
+              </ul>
+          </div>
+          <div class="toggle icon-menu"></div>
+          <div class="toggle icon-close"></div>
+        </nav>
+      </header>
+      <main>
+      <div class="divider-1"></div>
+    <!-- Depoimentos -->
+    <!-- <section class="section" id="testimonials">
+      <div class="container">
+        <header>
+          <h2 class="title">Depoimentos de quem já passou por aqui</h2>
+        </header>
+        <div class="testimonials swiper-container">
+          <div class="swiper-wrapper">
+            <div class="testimonial swiper-slide">
+              <blockquote>
+                <p>
+                  <span>&ldquo;</span>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Rerum blanditiis saepe nam excepturi explicabo ipsa error
+                  ipsam neque
+                </p>
+                <cite>
+                  <img src="assets/fotos/10.jpeg" alt="" />
+                  Wanessa Souza
+                </cite>
+              </blockquote>
+            </div>
+
+            <div class="testimonial swiper-slide">
+              <blockquote>
+                <p>
+                  <span>&ldquo;</span>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Rerum blanditiis saepe nam excepturi explicabo ipsa error
+                  ipsam neque
+                </p>
+                <cite>
+                  <img src="assets/fotos/56.jpeg" alt="" />
+                  Franciele Venega
+                </cite>
+              </blockquote>
+            </div>
+
+            <div class="testimonial swiper-slide">
+              <blockquote>
+                <p>
+                  <span>&ldquo;</span>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Rerum blanditiis saepe nam excepturi explicabo ipsa error
+                  ipsam neque
+                </p>
+                <cite>
+                  <img src="assets/fotos/26.jpeg" alt="" />
+                  Valeska Fabris
+                </cite>
+              </blockquote>
+            </div>
+          </div> -->
+
+    <!-- If we need pagination -->
+    <!-- <div class="swiper-pagination"></div>
+        </div>
+      </div>
+    </section>
+
+    <div class="divider-2"></div> -->
+
+
+     <!-- Contato -->
+     <section class="section" id="contact">
+        <div class="container grid">
+          <div class="text">
+            <h2 class="title"> Personagens </h2>
+            <p>
+              Você pode criar até 8 personagens
+              <br> <br>
+              Personagem
+            </p>
+            <div class="formulario">
+  
+              Nome <input type="text" name="" id="nomePersonagem">
+              <p></p>
+  
+              Nação <p></p>
+              <div class="nacoes">
+                <ul id = nacao>
+                  <li><input type="radio" name="a" id=" "> Anão</li>
+                  <li><input type="radio" name="a" id=" "> Elfo da Folresta</li>
+                  <li><input type="radio" name="a" id=" "> Hobbit</li>
+                  <li><input type="radio" name="a" id=" "> Elfo de Lothlórien</li>
+                  <li><input type="radio" name="a" id=" "> Cavaleiro de Rohan</li>
+                  <li><input type="radio" name="a" id=" "> Orc Snaga</li>
+                  <li><input type="radio" name="a" id=" "> Guerreiro de Condor</li>
+                  <li><input type="radio" name="a" id=" "> Uruk-hai</li>
+                </ul>
+              </div>
+  
+              <p></p>
+               
+              Habilidades <br><br>
+              <div class="habilidade">
+              <ul id = habilidade>
+                  <li>Força <input type="number" value="20" autofocus name="" id=" "></li> <br>
+                  <li>Precisão <input type="number" value="20" autofocus name="" id=" " ></li> <br>
+                  <li>Velocidade <input type="number" value="20" autofocus name="" id=" "></li> <br>
+                  <li>Armadura <input type="number" value="20" autofocus name="" id=" "></li> <br>
+                  <li>Recuperação <input type="number" value="20" autofocus name="" id=" "></li> <br>
+              </ul>
+              </div>
+  
+          
+
+            <br>
+            <button onclick="formulario.adicionar()"> Adicionar Personagem </button>
+          </div>
+          <div class="content">
+            <table border="1">
+                <caption> Personagens Criados </caption>
+                <thead>
+                    <th class="center"> Nome </th>
+                    <th class="center"> Nação </th>
+                    <th class="center"> Habilidades </th>
+                </thead>
+                <tbody id="tbody">
+                
+                </tbody>
+            </table>
+          </div>
+
+
+        </div>
+      </div>
+    </section>
+
+    <div class="divider-1"></div>
+  </main>
+
+  <footer class="section">
+    <div class="container grid">
+      <div class="brand">
+        <a class="logo logo-alt" href="#home">Middle<span>Earth</span>.</a>
+        <p>©2022 MiddleEarth.</p>
+        <p>Todos os direitos reservados.</p>
+      </div>
+    </div>
+  </footer>
+
+  <a href="#home" class="back-to-top"><i class="icon-arrow-up"></i></a>
+
+
+  <!-- swiper -->
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <!-- scrollreveal -->
+  <script src="https://unpkg.com/scrollreveal"></script>
+  <!-- main.js -->
+  <script src="main.js"></script>
+</body>
+
+</html>
